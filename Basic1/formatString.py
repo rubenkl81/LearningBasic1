@@ -1,0 +1,5 @@
+value = int(input("input your integer: "))
+int1 = int("%s" % value)
+int2 = int("%s%s" % (value, value))
+int3 = int("%s%s%s" % (value, value, value))
+print(int1 + int2 + int3)
